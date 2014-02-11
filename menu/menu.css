@@ -1,0 +1,27 @@
+.menu {
+    float: left;
+}
+
+.diner {
+	float: left;
+	width: 20em;
+}
+
+.diner h2,
+.diner span {
+	float: left;
+	clear: both;
+}
+
+.diner span {
+	cursor: pointer;
+}
+
+.diner span.selected {
+	background: #0f0;
+}
+
+.error {
+    width: 20em;
+    color: #f00;
+}
