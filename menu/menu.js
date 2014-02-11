@@ -20,7 +20,7 @@
 	}
 	Diner.prototype = (function () {
 		return {
-			constructor: this.Diner,
+			constructor: Diner,
 
 			getSelection: function () {
 				return this.selection;
